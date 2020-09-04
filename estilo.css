@@ -1,0 +1,176 @@
+/*selector unuversl.*/
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color:white;
+}  
+.subtitulo{
+    color:blueviolet;
+}
+.flex-content{
+    /*permite que los elementos queden el linea.*/
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    background-color: red;   
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color:white;
+    font-family: 'grandstander' cursive;
+}
+
+.opt-menu{
+    justify-content: flex-end;
+    width: 90%;
+}
+.opt-menu li{
+    list-style: none;
+    width: 12%;
+}
+
+.opt-menu a :hover{
+    background-color:white;
+    color:black;
+    border: 5px black solid;
+    border-radius: 30px;
+}
+
+.container{
+    margin: 5% 10% 3% 8%;
+    text-align: center;
+    font-family:"architects doughter",cursive;
+}
+
+
+.main-charecter{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.charecters{
+    width: 25%;
+    height: 300%;
+    margin: 3%;
+    border:2px #E6E6E6 solid;
+    border-right:  3px #E6E6E6 solid;
+    border-bottom:  3px #E6E6E6 solid;
+
+    border-radius: 5px;
+    text-align: center;
+}
+
+.charecters img{
+    width: 80%;
+    border-radius: 3%;  
+}
+.charecters div{
+    text-align: justify;
+    padding: 3%;
+} 
+
+.charecters h2{
+    font-weight: bold;
+}
+.container h1{
+    font-family: "architects daughter",cursive;
+}
+footer{
+    background-color: black;
+    color:white;
+    height: 100px ;
+    text-align: center;
+    font-family: "cookie", cursive;
+}
+
+footer p{
+    padding-top: 2%
+}
+
+.fa-heart{
+    color:red;
+}
+
+/* estilos perfil*/
+
+.img-lenguaje {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.img-lenguaje img {
+    width: 80%;
+    height: 80%;
+}
+.img-lenguaje img:hover {
+    border: 5px black solid;
+    border-radius: 40px;
+   box-shadow: 3px 5px 5px #BDBDBD;
+}
+.section-flex {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+h2 {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.opt-menu a{
+    text-decoration: none;
+    color:white;
+}
+
+*/
+/*estilos formulario*/
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.input-form{
+    margin-bottom: 2%;
+
+}
+.input-form div{
+    width: 30%;
+    float: left;
+}
+.input-form input{
+    width: 60%;
+}
+.form-button button{
+    background-color: rgb(67, 167, 192);
+    color: white;
+    border:5px solid;
+    width: 15%;
+    height: 50px;
+}
+.form-button {
+    text-align: center;
+}
+.form-flex input{
+    height: 30px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.opt{
+    display: flex;
+    justify-content: space-between;
+}
+.opt h4{
+    text-align: center;
+}
+.opt input{
+    width: 10%;
+}
+

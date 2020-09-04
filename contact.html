@@ -1,0 +1,81 @@
+<!--especifica la version de html que vamos a utlizar-->  
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Rick and Morty</title>
+    <link rel="icon" href="./imagenes/Rick Sanchez.png" type="img/png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" > 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="./estilo.css">
+  <link rel="stylesheet" href="./estilo_sobre_mi.css">
+</head>
+<body>
+    <nav  class="main-menu">
+		<div>
+		  <img src="./imagenes/Rick Sanchez.png" width="80" height="80">
+		</div>
+		<ul class="main-menu opt-menu">
+			<li><a href="./index.html"> Inicio</a></li>
+			<li><a href="./sobre_mi.html"> Sobre mi</a></li>
+			<li><a href="./contact.html" > Contatenos</a></li>
+    </ul>
+
+  </nav>
+  <div class="container">
+      <h1>Formulario de Contacto</h1>
+
+      <form method="GET" action="" class="form-flex" >
+          <div class="input-form">
+             <div> <label for="nombre">Nombre</label></div>
+              <input id="nombre" name="nombre" type="text" required>  
+        </div>
+          
+         <div class="input-form">
+              <div><label for="apellido">Apellido</label></div>
+              <input id="apellido" name="apellido" type="text" required>
+        </div>
+
+         <div class="input-form">
+           <div>  <label for="edad">Edad</label></div>
+             <input id="edad" name="edad" type="number" required> 
+         </div>
+         
+         <div class="input-form">
+             <div><label for="email">Correo Electronico</label></div>
+             <input id="email" name="edad" type="email" required> 
+         </div>
+
+         <div class="input-form">
+            <div><label for="contraseña">Contraseña</label></div>
+            <input id="contraseña" name="contraseña" type="password" required> 
+         </div>
+
+        <div class="input-form">
+            <div> <label for="fechanacimiento">Fecha de Nacimeinto</label></div>
+             <input id="fechanacimeinto" name="fechanacimeinto" type="date" required> 
+         </div>
+
+        <div >
+          <input id="mujer" name="mujer" type="radio" required> 
+          <label for="mujer">mujer</label>
+          <input id="hombre" name="hombre" type="radio" required> 
+          <label for="hombre">Hombre</label>
+        </div>
+
+        <div class="form-button "> 
+           <button type="submit"> Enviar</button>
+       </div>
+      </form>
+
+  </div>
+  
+  <footer>
+		<p> Hecho con amor<i class="fas fa-heart"></i></i> por Jennifer</p>
+	</footer>
+
+</body>
+</html>
