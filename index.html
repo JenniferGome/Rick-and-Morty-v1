@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" > 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 	<link rel="stylesheet" href="./estilo.css">
+
 </head>
 <body>
     <nav  class="main-menu">
@@ -29,59 +30,74 @@
 		<section class="main-charecter">
 			<article class="charecters">
 				<header>
-					<h2>Beth Sanchez</h2>
+					<h2 id="mensaje1">Beth Sanchez</h2>
 				</header>
 				<img src="./imagenes/Beth.jpeg"alt="Beth Sanchez">
 				<div>
 					<p>  <b>Genero:</b> Femenino </p>
 					<p>  <b>Especie:</b> Humano </p>
 				</div>
+			 <button class="button">
+                    <a onclick="cambiarMensaje('mensaje1')">Cambiar Nombre</a>
+                 </button>
 			</article>
 
 			<article class="charecters">
 				<header>
-					<h2>Diane Sanchez</h2>
+					<h2 id="mensaje2">Diane Sanchez</h2>
 				</header>
 				<img src="./imagenes/DianeSanchez.jpeg"alt="Diane Sanchez">
 				<div>
 					<p>  <b>Genero:</b>Femenino </p>
 					<p>  <b>Especie:</b> Humano </p>
 				</div>
+				<button class="button">
+                    <a onclick="cambiarMensaje('mensaje2')">Cambiar Nombre</a>
+                 </button>
 			</article>
 			
 			<article class="charecters">
 				<header>
-					<h2>Rick Sanchez</h2>
+					<h2 id="mensaje3">Rick Sanchez</h2>
 				</header>
 				<img src="./imagenes/Rick.png"alt="Rick">
 				<div>
 					<p>  <b>Genero:</b>Masculino</p>
 					<p>  <b>Especie:</b> Humano </p>
 				</div>
+				<button class="button">
+				<a onclick="cambiarMensaje('mensaje3')">Cambiar Nombre</a>
+                </button>
 			</article>
 		</section>
 		
 		<section class="main-charecter">
 			<article class="charecters">
 				<header>
-					<h2>Birdperson</h2>
+					<h2 class="mensaje4">Birdperson</h2>
 				</header>
 				<img src="./imagenes/Birdperson.jpeg"alt="Birdperson">
 				<div>
 					<p>  <b>Genero:</b> Masculino </p>
 					<p>  <b>Especie:</b> Humano </p>
 				</div>
+				<button class="button">
+				<a onclick="cambiarMensaje('mensaje4')">Cambiar Nombre</a>
+                 </button>
 			</article>
 
 			<article class="charecters">
 				<header>
-					<h2>Arthricia</h2>
+					<h2 id="mensaje5">Arthricia</h2>
 				</header>
 				<img src="./imagenes/Arthricia.jpeg"alt="Arthricia">
 				<div>
 					<p>  <b>Genero:</b>Femenino </p>
 					<p>  <b>Especie:</b> Humano </p>
 				</div>
+				<botton class="button">
+				<a onclick="cambiarMensaje('mensaje5')">Cambiar Nombre</a>
+                </button>
 			</article>
 		</section>
 	</div>
@@ -89,5 +105,6 @@
 	<footer>
 		<p> Hecho con amor<i class="fas fa-heart"></i></i> por Jennifer</p>
 	</footer>
- </body>
+	<script src="./script.js"></script>
+</body>
 </html>

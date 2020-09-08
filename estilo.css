@@ -98,6 +98,18 @@ footer p{
     color:red;
 }
 
+.button{
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 800px;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #dd99a1;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+
 /* estilos perfil*/
 
 .img-lenguaje {
@@ -128,6 +140,24 @@ h2 {
     text-decoration: none;
     color:white;
 }
+
+.button{
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 800px;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #dd99a1;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
 
 */
 /*estilos formulario*/
@@ -173,4 +203,3 @@ h2 {
 .opt input{
     width: 10%;
 }
-
